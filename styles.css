@@ -33,17 +33,33 @@ body {
 
 .form__header {
     border: 1px solid red;
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 28px;
+
+    padding: 24px;
+    padding-top: 85px;
 }
 
 .form__text {
     border: 1px solid red;
+
+    opacity: 0.75;
+
+    font-weight: 600;
+
+    padding: 0px 20px;
+    padding-bottom: 50px;
 }
 
 .form__price {
     border: 1px solid red;
-    color: hsl(0, 0%, 100%);
+    color: hsla(0, 0%, 100%, 75%);
     background: hsl(248, 32%, 49%);
+
+    padding: 20px 50px;
+    margin: 20px;
+
+    border-radius: 10px;
 }
 
 .form__free {
