@@ -6,12 +6,20 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+
   <title>Frontend Mentor | Intro Component With Sign Up Form</title>
 
 </head>
 <body>
   <div class="form">
-    <div class="form__left">
+    <div class="form__firstSection">
       <div class="form__header">
         Learn to code by watching others
       </div>
@@ -23,9 +31,9 @@
     </div>
     
 
-    <div class="form__right">
+    <div class="form__secondSection">
       <div class="form__price">
-        <span class="form__priceFree">Try it free 7 days</span> then $20/mo. thereafter
+        <span class="form__free">Try it free 7 days</span> then $20/mo. thereafter
       </div>
 
       <form class="signUp">
@@ -34,8 +42,9 @@
         <input class="signUp__email" type="email" placeholder="Email Address">
         <input class="signUp__password" type="password" placeholder="Password">
         <button class="signUp__button">Claim your free trial</button>
-        <div class="signUp__TOS">
-          By clicking the button, you are agreeing to our Terms and Services
+        <div class="signUp__agreement">
+          By clicking the button, you are agreeing to our 
+          <span class="signUp__TOS">Terms and Services</span>
         </div>
       </form>
     </div>

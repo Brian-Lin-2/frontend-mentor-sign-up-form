@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+
+    /* Website default is 16px already. */
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+}
+
+.form {
+    background-image: url(images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%) ;
+
+    border: 1px solid red;
+
+    width: 375px;
+    height: 1000px;
+
+    text-align: center;
+}
+
+.form__firstSection {
+    border: 1px solid red;
+    color: hsl(0, 0%, 100%);
+}
+
+.form__header {
+    border: 1px solid red;
+    font-weight: 600;
+}
+
+.form__text {
+    border: 1px solid red;
+}
+
+.form__price {
+    border: 1px solid red;
+    color: hsl(0, 0%, 100%);
+}
+
+.form__free {
+    border: 1px solid red;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.signUp {
+    border: 1px solid red;
+}
+
+.signUp__firstName {
+    border: 1px solid red;
+}
+
+.signUp__lastName {
+    border: 1px solid red;
+}
+
+.signUp__email {
+    border: 1px solid red;
+}
+
+.signUp__password {
+    border: 1px solid red;
+}
+
+.signUp__button {
+    border: 1px solid red;
+    color: hsl(0, 0%, 100%);
+}
+
+.signUp__agreement {
+    border: 1px solid red;
+    color: hsl(246, 25%, 77%);
+}
+
+.signUp__TOS {
+    border: 1px solid red;
+    color: hsl(0, 100%, 74%);
+}
