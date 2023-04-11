@@ -94,7 +94,7 @@ body {
     padding: 20px;
     padding-bottom: 15px;
 
-    box-shadow: 0px 5px hsl(154, 59%, 51%);
+    box-shadow: 0px 5px hsl(158, 38%, 54%);
 
     border-radius: 5px;
 }
@@ -103,7 +103,7 @@ body {
     color: hsl(246, 25%, 77%);
     font-size: 12px;
 
-    padding: 0px 20px;
+    padding: 5px 20px;
 }
 
 .signUp__TOS {
