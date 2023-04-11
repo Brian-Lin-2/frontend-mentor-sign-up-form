@@ -37,10 +37,42 @@
       </div>
 
       <form class="signUp">
-        <input class="input signUp__firstName" type="text" placeholder="First Name">
-        <input class="input signUp__lastName" type="text" placeholder="Last Name">
-        <input class="input signUp__email" type="email" placeholder="Email Address">
-        <input class="input signUp__password" type="password" placeholder="Password">
+        <div class="signUp__firstName">
+          <input class="input" type="text" placeholder="First Name">
+          <img class="signUp__error" src="images/icon-error.svg" alt="">
+        </div>
+
+        <div class="signUp__firstNameError">
+          First Name cannot be empty
+        </div>
+
+        <div class="signUp__lastName">
+          <input class="input" type="text" placeholder="Last Name">
+          <img class="signUp__error" src="images/icon-error.svg" alt="">
+        </div>
+
+        <div class="signUp__lastNameError">
+          Last Name cannot be empty
+        </div>
+
+        <div class="signUp__email">
+          <input class="input" type="email" placeholder="Email Address">
+          <img class="signUp__error" src="images/icon-error.svg" alt="">
+        </div>
+
+        <div class="signUp__emailError">
+          Looks like this is not an email
+        </div>
+
+        <div class="signUp__password">
+          <input class="input" type="password" placeholder="Password">
+          <img class="signUp__error" src="images/icon-error.svg" alt="">
+        </div>
+
+        <div class="signUp__passwordError">
+          Password cannot be empty
+        </div>
+
         <button class="signUp__button">CLAIM YOUR FREE TRIAL</button>
         <div class="signUp__agreement">
           By clicking the button, you are agreeing to our 

@@ -26,7 +26,7 @@ body {
 }
 
 /* Desktop Version */
-@media screen and (min-width: 500px) {
+/* @media screen and (min-width: 500px) {
     .form {
         background-image: url(images/bg-intro-desktop.png);
 
@@ -35,7 +35,7 @@ body {
 
         display: flex;
     }
-}
+} */
 
 .form__firstSection {
     color: hsl(0, 0%, 100%);
@@ -59,7 +59,7 @@ body {
 }
 
 /* Desktop Version */
-@media screen and (min-width: 500px) {
+/* @media screen and (min-width: 500px) {
     .form__firstSection {
         display: flex;
         flex-direction: column;
@@ -80,7 +80,7 @@ body {
         padding: 0px 20px;
         margin-bottom: 125px;
     }
-}
+} */
 
 .form__price {
     color: hsla(0, 0%, 100%, 75%);
@@ -152,7 +152,7 @@ body {
 }
 
 /* Desktop Version */
-@media screen and (min-width: 500px) {
+/* @media screen and (min-width: 500px) {
     .form__secondSection {
         display: flex;
         flex-direction: column;
@@ -176,4 +176,4 @@ body {
         cursor: pointer;
         opacity: 0.75;
     }
-}
+} */
