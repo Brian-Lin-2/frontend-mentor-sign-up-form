@@ -171,4 +171,9 @@ body {
     .signUp {
         padding: 40px;
     }
+
+    .signUp__button:hover {
+        cursor: pointer;
+        opacity: 0.75;
+    }
 }
