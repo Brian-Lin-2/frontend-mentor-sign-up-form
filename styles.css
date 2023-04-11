@@ -43,6 +43,7 @@ body {
 .form__price {
     border: 1px solid red;
     color: hsl(0, 0%, 100%);
+    background: hsl(248, 32%, 49%);
 }
 
 .form__free {
@@ -53,6 +54,7 @@ body {
 
 .signUp {
     border: 1px solid red;
+    background: hsl(0, 0%, 100%);
 }
 
 .signUp__firstName {
@@ -74,6 +76,9 @@ body {
 .signUp__button {
     border: 1px solid red;
     color: hsl(0, 0%, 100%);
+    background: hsl(154, 59%, 51%);
+    
+    border: none;
 }
 
 .signUp__agreement {
