@@ -3,6 +3,8 @@
 }
 
 body {
+    background-color: hsl(0, 100%, 74%);
+
     font-family: 'Poppins', 'Times New Roman', Times, serif;
 
     /* Website default is 16px already. */
@@ -16,12 +18,21 @@ body {
 
 .form {
     background-image: url(images/bg-intro-mobile.png);
-    background-color: hsl(0, 100%, 74%) ;
 
     width: 375px;
     height: 1000px;
 
     text-align: center;
+}
+
+/* Desktop Version */
+@media screen and (min-width: 500px) {
+    .form {
+        background-image: url(images/bg-intro-desktop.png);
+
+        width: 1440px;
+        height: 800px;
+    }
 }
 
 .form__firstSection {
@@ -43,6 +54,13 @@ body {
 
     padding: 0px 20px;
     padding-bottom: 40px;
+}
+
+/* Desktop Version */
+@media screen and (min-width: 500px) {
+    .form__firstSection {
+        border: 1px red solid;
+    }
 }
 
 .form__price {
@@ -85,6 +103,8 @@ body {
     border-radius: 5px;
 
     font-weight: bold;
+
+    outline-color: hsl(248, 32%, 49%);
 }
 
 .signUp__button {
@@ -110,4 +130,11 @@ body {
 
 .signUp__TOS {
     color: hsl(0, 100%, 74%);
+}
+
+/* Desktop Version */
+@media screen and (min-width: 500px) {
+    .form__secondSection {
+        border: 1px red solid;
+    }
 }
