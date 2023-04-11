@@ -32,6 +32,8 @@ body {
 
         width: 1440px;
         height: 800px;
+
+        display: flex;
     }
 }
 
@@ -59,7 +61,24 @@ body {
 /* Desktop Version */
 @media screen and (min-width: 500px) {
     .form__firstSection {
-        border: 1px red solid;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        text-align: start;
+
+        width: 50%;
+
+        padding: 0px 0px 0px 125px;
+    }
+
+    .form__header {
+        font-size: 50px;
+    }
+
+    .form__text {
+        padding: 0px 20px;
+        margin-bottom: 125px;
     }
 }
 
@@ -135,6 +154,21 @@ body {
 /* Desktop Version */
 @media screen and (min-width: 500px) {
     .form__secondSection {
-        border: 1px red solid;
+        display: flex;
+        flex-direction: column;
+
+        width: 50%;
+
+        justify-content: center;
+
+        padding-right: 150px;
+    }
+
+    .form__price {
+        margin-bottom: 0px;
+    }
+
+    .signUp {
+        padding: 40px;
     }
 }
