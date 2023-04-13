@@ -16,6 +16,31 @@ const emailError = document.querySelector(".email__error")
 const passwordIcon = document.querySelector(".password__iconError");
 const passwordError = document.querySelector(".password__error");
 
+const isEmpty = () => {
+    let error = 0;
+
+    if (firstName.value == "") {
+        console.log("Empty");
+        error++;
+    }
+
+    if (lastName.value == "") {
+        console.log("Empty");
+        error++;
+    }
+
+    if (password.value == "") {
+        console.log("Empty");
+        error++;
+    }
+
+    if (error > 0) {
+        return true;
+    }
+
+    return false;
+}
+
 form.addEventListener('submit', (e) => {
     if (isEmpty() || !validateEmail()) {
         e.preventDefault();
