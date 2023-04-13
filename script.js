@@ -41,9 +41,22 @@ const isEmpty = () => {
     return false;
 }
 
+// Imported regex expression.
+const validateEmail = (email) => {
+    return String(email)
+      .toLowerCase()
+      .match(
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      );
+  };
+
 form.addEventListener('submit', (e) => {
-    if (isEmpty() || !validateEmail()) {
+    if (isEmpty()) {
         e.preventDefault();
+    }
+
+    if (!validateEmail(email.value)) {
+        console.log("false");
     }
 
     // Page reloads if form is successful.
