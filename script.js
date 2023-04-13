@@ -15,27 +15,23 @@ const emailIcon = document.querySelector(".email__iconError");
 const emailError = document.querySelector(".email__error")
 const passwordIcon = document.querySelector(".password__iconError");
 const passwordError = document.querySelector(".password__error");
-const firstNameBorder = document.querySelector(".signUp__firstName");
-const lastNameBorder = document.querySelector(".signUp__lastName");
-const emailBorder = document.querySelector(".signUp__email");
-const passwordBorder = document.querySelector(".signUp__password");
 
 const resetForm = () => {
     firstNameError.classList.add("hideMessage");
     firstNameIcon.classList.add("hide");
-    firstNameBorder.classList.remove("signUp__errorBorder");
+    firstName.classList.remove("signUp__errorBorder");
 
     lastNameError.classList.add("hideMessage");
     lastNameIcon.classList.add("hide");
-    lastNameBorder.classList.remove("signUp__errorBorder");
+    lastName.classList.remove("signUp__errorBorder");
 
     passwordError.classList.add("hideMessage");
     passwordIcon.classList.add("hide");
-    passwordBorder.classList.remove("signUp__errorBorder");
+    password.classList.remove("signUp__errorBorder");
 
     emailError.classList.add("hideMessage");
     emailIcon.classList.add("hide");
-    emailBorder.classList.remove("signUp__errorBorder");
+    email.classList.remove("signUp__errorBorder");
 }
 
 const isEmpty = () => {
@@ -46,21 +42,21 @@ const isEmpty = () => {
     if (firstName.value == "") {
         firstNameError.classList.remove("hideMessage");
         firstNameIcon.classList.remove("hide");
-        firstNameBorder.classList.add("signUp__errorBorder");
+        firstName.classList.add("signUp__errorBorder");
         error++;
     }
 
     if (lastName.value == "") {
         lastNameError.classList.remove("hideMessage");
         lastNameIcon.classList.remove("hide");
-        lastNameBorder.classList.add("signUp__errorBorder");
+        lastName.classList.add("signUp__errorBorder");
         error++;
     }
 
     if (password.value == "") {
         passwordError.classList.remove("hideMessage");
         passwordIcon.classList.remove("hide");
-        passwordBorder.classList.add("signUp__errorBorder");
+        password.classList.add("signUp__errorBorder");
         error++;
     }
 
@@ -88,7 +84,7 @@ form.addEventListener('submit', (e) => {
     if (!validateEmail(email.value)) {
         emailError.classList.remove("hideMessage");
         emailIcon.classList.remove("hide");
-        emailBorder.classList.add("signUp__errorBorder");
+        email.classList.add("signUp__errorBorder");
         e.preventDefault();
     }
 
