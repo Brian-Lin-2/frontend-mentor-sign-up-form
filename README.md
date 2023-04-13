@@ -47,8 +47,6 @@ Mobile Design
 Mobile Error State
 </br><img width="208" alt="image" src="https://user-images.githubusercontent.com/19761406/231765505-bb89826b-9b3b-46e7-9e84-01c76e653921.png">
 
-
-
 ### Links
 
 - Solution URL: https://github.com/Brian-Lin-2/frontend-mentor-sign-up-form
