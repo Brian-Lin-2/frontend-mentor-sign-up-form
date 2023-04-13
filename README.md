@@ -39,13 +39,13 @@ Desktop Active State
 </br><img width="500" alt="image" src="https://user-images.githubusercontent.com/19761406/231762606-5c5f0e2b-4f48-4274-9658-7ac2b4bed282.png">
 
 Desktop Error State
-</br><img width="500" alt="image" src="https://user-images.githubusercontent.com/19761406/231762725-629d85d7-08a5-451c-8565-c968edaaffcc.png">
+</br><img width="500" alt="image" src="https://user-images.githubusercontent.com/19761406/231765330-6dd1bb9e-6f54-4d02-ab73-aefb82561713.png">
 
 Mobile Design
 </br><img width="188" alt="image" src="https://user-images.githubusercontent.com/19761406/231762979-82dc78fa-9876-4e42-a663-82c77ba20800.png">
 
 Mobile Error State
-</br><img width="185" alt="image" src="https://user-images.githubusercontent.com/19761406/231763067-7db4a029-1528-44d2-8ba7-33b1e94a2844.png">
+</br><img width="208" alt="image" src="https://user-images.githubusercontent.com/19761406/231765505-bb89826b-9b3b-46e7-9e84-01c76e653921.png">
 
 
 
