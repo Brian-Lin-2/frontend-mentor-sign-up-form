@@ -45,7 +45,7 @@ Mobile Design
 </br><img width="188" alt="image" src="https://user-images.githubusercontent.com/19761406/231762979-82dc78fa-9876-4e42-a663-82c77ba20800.png">
 
 Mobile Error State
-</br><img width="208" alt="image" src="https://user-images.githubusercontent.com/19761406/231765505-bb89826b-9b3b-46e7-9e84-01c76e653921.png">
+</br><img width="188" alt="image" src="https://user-images.githubusercontent.com/19761406/231765505-bb89826b-9b3b-46e7-9e84-01c76e653921.png">
 
 ### Links
 
