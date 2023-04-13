@@ -145,7 +145,7 @@ body {
     height: 25px;
 }
 
-.signUp__errorMessage {
+.errorMessage {
     color: hsl(0, 100%, 74%);
     font-size: 12px;
     font-style: italic;
@@ -204,7 +204,7 @@ body {
         padding: 40px;
     }
 
-    .signUp__errorMessage {
+    .errorMessage {
         margin-top: 5px;
         margin-bottom: 15px;
     }
