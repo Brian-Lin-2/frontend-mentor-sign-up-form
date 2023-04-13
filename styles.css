@@ -110,12 +110,12 @@ body {
     flex-direction: column;
 
     padding: 25px;
-    gap: 15px;
 
     box-shadow: 0px 7px hsla(249, 10%, 26%, 0.25);
 }
 
 .input {
+    width: 280px;
     padding: 20px;
 
     border: 1px solid hsla(0, 0%, 0%, 0.25);
@@ -126,14 +126,45 @@ body {
     outline-color: hsl(248, 32%, 49%);
 }
 
+.signUp__firstName,
+.signUp__lastName,
+.signUp__email,
+.signUp__password {
+    display: flex; 
+    align-items: center;
+}
+
+.signUp__errorBorder {
+    border: 2px solid hsl(0, 100%, 74%);
+}
+
+.signUp__error {
+    margin-left: -45px;
+
+    width: 25px;
+    height: 25px;
+}
+
+.signUp__errorMessage {
+    color: hsl(0, 100%, 74%);
+    font-size: 12px;
+    font-style: italic;
+
+    text-align: end;
+
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 .signUp__button {
-    border: 1px solid red;
     color: hsl(0, 0%, 100%);
     background: hsl(154, 59%, 51%);
     
     border: none;
     padding: 20px;
     padding-bottom: 15px;
+
+    width: 280px;
 
     box-shadow: 0px 5px hsl(158, 38%, 54%);
 
@@ -177,3 +208,13 @@ body {
         opacity: 0.75;
     }
 } */
+
+.hide {
+    display: none;
+}
+
+.hideMessage {
+    visibility: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
