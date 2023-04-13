@@ -136,6 +136,7 @@ body {
 
 .signUp__errorBorder {
     border: 2px solid hsl(0, 100%, 74%);
+    border-radius: 5px;
 }
 
 .signUp__error {
